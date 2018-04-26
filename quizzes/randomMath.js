@@ -5,3 +5,13 @@
  * 
  * For example: random(6) would return a number between 0  and 5. 
 */
+
+function random(n) {
+    // should return a number between 0 and n - 1
+    n = Math.floor(Math.random() * n)
+    return n
+  }
+  
+  // 
+  console.log(random(6));
+  
